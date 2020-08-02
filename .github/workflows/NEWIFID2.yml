@@ -12,13 +12,13 @@ name: newifiD2
 
 on:
   repository_dispatch:
-  release:
-    types: published
-  push:
-    branches:
-      - main
-    paths:
-      - 'newifiD2.config'
+#   release:
+#     types: published
+#   push:
+#     branches:
+#       - main
+#     paths:
+#       - 'newifiD2.config'
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
