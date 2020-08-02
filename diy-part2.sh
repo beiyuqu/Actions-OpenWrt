@@ -14,4 +14,4 @@
 sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
 # 删除默认主题
-sed -i '+luci-theme-bootstrap/d' feeds/luci/collections/luci/Makefile
+sed -i 's/+luci-theme-bootstrap//g' feeds/luci/collections/luci/Makefile
