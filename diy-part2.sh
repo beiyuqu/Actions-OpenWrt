@@ -11,7 +11,7 @@
 #
 
 # 修改默认ip
-sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_generate
 
 # 删除默认主题
 sed -i 's/+luci-theme-bootstrap//g' feeds/luci/collections/luci/Makefile
