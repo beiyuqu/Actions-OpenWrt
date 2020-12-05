@@ -21,3 +21,8 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+
+git clone https://github.com/sirpdboy/luci-theme-opentopd package/
+scripts/feeds install luci-theme-opentopd
+
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/
